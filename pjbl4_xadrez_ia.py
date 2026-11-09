@@ -879,7 +879,7 @@ class Motor:
         self.matador = [[0, 0] for _ in range(80)]
         self.historia = [0] * (13 * 120)
         self.nos = 0
-        self.stats = []  # (profundidade, tempo gasto) de cada jogada, para o relatório
+        self.stats = []  # (profundidade, tempo gasto) de cada jogada
 
     # ---------- ordenação ----------
     def _ordenar(self, t, moves, tt_mov, ply):
